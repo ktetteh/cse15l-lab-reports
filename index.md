@@ -18,8 +18,7 @@ When I told her what I got, she said:
 > I told you so!!!!!!!!!
 
 
-Which left me even more sad ![:(]([https://upload.wikimedia.org/wikipedia/commons/0/06/Face-sad.svg)
-
+Which left me even more sad ![:(](http://url/sad-face-2691.png)
 So I went to my room and went on [Youtube](http://youtube.com)
 
 ```
