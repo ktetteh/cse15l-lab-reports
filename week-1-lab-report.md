@@ -12,7 +12,7 @@ For this command, when it is used with nothing, nothing appears. This is not an 
 
 Example when already in another directory (in this case *lecture1*)
 
-![Image](lab-1-images/cd1pt2.png)
+![Image](lab-1-images/cd1p3.png)
 
 
 When a argument added which is a directory, the cd command takes the user to the specified directory, granted it exists. This isn't an error. This can be seen in the image below where the user goes from the main directory to the *lecture1* directory. 
