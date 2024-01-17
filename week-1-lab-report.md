@@ -20,7 +20,7 @@ When used with an argument that is a file, it sends out a message saying that th
 ![Image](lab-1-images/cd3.png)
 
 
-##ls
+## ls
 
 For the *ls* command, it sends out the available directories to go to when it is used with no other arguments. This isn't an error. This can be seen in the image below as well, where it shows the only directory available to go to from the main directory directly.
 
