@@ -27,3 +27,26 @@ For the *ls* command, it sends out the available directories to go to when it is
 ![Image](lab-1-images/ls1.png)
 
 
+When it is used with a directory agrument, it shows the files and other directories that can be accessed with the typed directory argument. Again, this isn't an error. Example can be seen below when the user types the *lecture1* directory argument with the *ls* command.
+
+![Image](lab-1-images/ls2.png)
+
+
+For when *ls* command is used with a file argument, it reads out the name of the file and what is accessable. This isn't an error. This can be seen in the given image below, when the user accesses the *README* file by going through the *lecture1* directory, where it states that only the *README* file can be currently accessed through here.
+
+![Image](lab-1-images/ls3.png)
+
+
+##cat
+
+When the *cat* command is used without any arguments, it doesn't do anything. This isn't an error. This makes sense as the cat command is used to read out the file given, so when there is no file  given, it prints out nothing from the main directory. This can be seen below, when it is ran straight from the main directory.
+
+![Image](lab-1-images/cat1.png)
+
+When the *cat* command is ran with a given directory argument, again, it prints nothing. As like the previous one above, this isn't an error. This makes sense as the cat command is used to read out the file given, so when there is no file given, it prints out nothing from the *lecture1* directory. The image below represents this, where the *lecture1* argument is added the *cat* command to see the result.
+
+![Image](lab-1-images/cat2.png)
+
+For when *cat* command is used with a file argument, it reads out the contents of what the given file says. This isn't an error. This can be seen in the given image below, when the user accesses the *README* file by going through the *lecture1* directory, where it prints out what the *README* says, which is in summary how to run the given program.
+
+![Image](lab-1-images/cat3.png)
