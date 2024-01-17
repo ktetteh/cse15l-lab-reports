@@ -10,7 +10,7 @@ For this command, when it is used with nothing, nothing appears. This is not an 
 ![Image](lab-1-images/cd1.png)
 
 
-Example when already in another directory
+Example when already in another directory (in this case *lecture1*)
 
 ![Image](lab-1-images/cd1pt2.png)
 
