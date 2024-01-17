@@ -37,7 +37,7 @@ For when *ls* command is used with a file argument, it reads out the name of the
 ![Image](lab-1-images/ls3.png)
 
 
-##cat
+## cat
 
 When the *cat* command is used without any arguments, it doesn't do anything. This isn't an error. This makes sense as the cat command is used to read out the file given, so when there is no file  given, it prints out nothing from the main directory. This can be seen below, when it is ran straight from the main directory.
 
