@@ -44,11 +44,11 @@ For when *ls* command is used with a file argument, it reads out the name of the
 
 ## cat
 
-When the *cat* command is used without any arguments, it doesn't do anything. This isn't an error. This makes sense as the cat command is used to read out the file given, so when there is no file  given, it prints out nothing from the main directory. This can be seen below, when it is ran straight from the main directory.
+When the *cat* command is used without any arguments, it prints out nothing. This isn't an error. This makes sense as the cat command is used to read out the file given, so when there is no file given, it prints out nothing from the main directory. This can be seen below, when it is ran straight from the main directory.
 
 ![Image](lab-1-images/cat1.png)
 
-When the *cat* command is ran with a given directory argument, again, it prints nothing. As like the previous one above, this isn't an error. This makes sense as the cat command is used to read out the file given, so when there is no file given, it prints out nothing from the *lecture1* directory. The image below represents this, where the *lecture1* argument is added the *cat* command to see the result.
+When the *cat* command is ran with a given directory argument, it just states that the argument given is a diectory. As like the previous one above, this isn't an error. Again, this makes sense as the cat command is used to read out the file given, so when there is no file given, it prints out what is can see, which is that the argument given was a directory. The image below represents this, where the *lecture1* argument is added to the *cat* command to see the result.
 
 ![Image](lab-1-images/cat2.png)
 
