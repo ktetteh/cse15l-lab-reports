@@ -46,6 +46,6 @@ is used to form the correct chatlog format, which is the variable *sentencepart*
 
 
 
-## Part 3 - New learnings
+## Part 3 - New Learnings
 
-Over week 2 and 3, I have learned a lot of new things. One of the first things I learned was the parts of the URL and what each part meant. Then, one of the most major ones was learning how to set up and run my own server, and how I could edit my own page and make additions/paths to my page, while also saving data to these pages. I also learned how to ssh into a remote server in the school, which was really interesting for me.
+Over weeks 2 and 3, I have learned a lot of new things. One of the first things I learned was the parts of the URL and what each part meant. Then, one of the most major ones was learning how to set up and run my own server, and how I could edit my own page and make additions/paths to my page, while also saving data to these pages. I also learned how to ssh into a remote server in the school, which was really interesting for me.
