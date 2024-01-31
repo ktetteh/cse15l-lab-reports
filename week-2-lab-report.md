@@ -51,7 +51,7 @@ Above the direct file locations for the public AND private keys.
 
 Above is the other proof of their locations
 
-![Image](lab-2-images/login-proof.png)
+![Image](lab-2-images/loginproof.png)
 
 Above is the login proof that a password is not prompted anymore
 
