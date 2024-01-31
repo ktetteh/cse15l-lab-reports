@@ -41,9 +41,19 @@ Then like before, when everything is split and in the right order to get their k
 is used to form the correct chatlog format, which is the variable *sentencepart*, which then gets added to another variable *sentence*. As said before, leaving it set up so that it gets added to another variable (which doesn't get reset with a new addition) allows the chat log to update itself as more and more additions are made.
 
 
+## Part 2 - ChatServer 
 
+![Image](lab-2-images/ls-ssh.png)
 
+Above the direct file locations for the public AND private keys.
 
+![Image](lab-2-images/proof2.png)
+
+Above is the other proof of their locations
+
+![Image](lab-2-images/login-proof.png)
+
+Above is the login proof that a password is not prompted anymore
 
 
 ## Part 3 - New Learnings
