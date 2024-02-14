@@ -43,15 +43,9 @@ is used to form the correct chatlog format, which is the variable *sentencepart*
 
 ## Part 2 - SSH Key
 
-![Image](lab-2-images/ls-ssh.png)
+![Image](lab-2-images/proof4.png)
 
-Above the direct file locations for the public AND private keys stored on this computer
-The public key is *id_rsa.pub*
-The private key is *id_rsa*
-
-![Image](lab-2-images/proof2.png)
-
-Above is the other proof of their locations
+Above is the proof for the absolute path of the private key stored on the computer
 
 ![Image](lab-2-images/proof3.png)
 
