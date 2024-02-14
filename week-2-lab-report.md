@@ -22,7 +22,7 @@ What happens in this method is that the url is broken up to just get the query (
 and index 1 is "kyle", the actual user part. 
 
 Then, when everything is split and in the right order to get their keywords, the handleResquest method checks if they started off the path correctly (checking for "s", the 0 index for *String[] parametersMessage*. Then, it stores the parameters message and user in the variable *message* and *name*, which then
-is used to form the correct chatlog format, which is the variable *sentencepart*, which then gets added to another variable *sentence*. Having it set up so that it gets added to another variable allows the chat log to update itself as more and more queries are added.
+is used to form the correct chatlog format, which is the variable *sentencepart*, which then gets added to another variable *sentence*. Having it set up so that it gets added to another variable allows the chat log to update itself as more and more queries are added. In other words, the relevant class fields for class *Handler* is *sentencePart* and *sentence*. This is because *sentencePart* makes the print format of the name and message, and the variable *sentence* is the one that is actually returned to the user. In addition, *sentence* is the one that is actually showing the updated/new chat logs to the user.
 
 
 ![Image](lab-2-images/add2.png)
@@ -38,18 +38,24 @@ What happens in this method is that the url is broken up to just get the query (
 and index 1 is "kelvin", the actual user part. 
 
 Then like before, when everything is split and in the right order to get their keywords, the handleResquest method checks if they started off the path correctly (checking for "s", the 0 index for *String[] parametersMessage*. Then, it stores the parameters message and user in the variable *message* and *name*, which then
-is used to form the correct chatlog format, which is the variable *sentencepart*, which then gets added to another variable *sentence*. As said before, leaving it set up so that it gets added to another variable (which doesn't get reset with a new addition) allows the chat log to update itself as more and more additions are made.
+is used to form the correct chatlog format, which is the variable *sentencepart*, which then gets added to another variable *sentence*. As said before, leaving it set up so that it gets added to another variable (which doesn't get reset with a new addition) allows the chat log to update itself as more and more additions are made. Again in other words, the relevant class fields for class *Handler* is *sentencePart* and *sentence*. This is because *sentencePart* makes the print format of the name and message, and the variable *sentence* is the one that is actually returned to the user. In addition, *sentence* is the one that is actually showing the updated/new chat logs to the user.
 
 
 ## Part 2 - SSH Key
 
 ![Image](lab-2-images/ls-ssh.png)
 
-Above the direct file locations for the public AND private keys.
+Above the direct file locations for the public AND private keys stored on this computer
+The public key is *id_rsa.pub*
+The private key is *id_rsa*
 
 ![Image](lab-2-images/proof2.png)
 
 Above is the other proof of their locations
+
+![Image](lab-2-images/proof3.png)
+
+Above is proof for the absolute path of the public key on the ieng6 workspace machine
 
 ![Image](lab-2-images/loginproof.png)
 
