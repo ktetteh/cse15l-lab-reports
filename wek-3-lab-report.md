@@ -118,6 +118,29 @@ kaytettey@Kelvins-MacBook-Air 911report % grep -m 3 "kills" chapter-2.txt
                 societies. Far more acquired valuable skills but lived in stagnant economies that
                 abroad, lacked the perspective and skills needed to understand a different culture.
 ```
-
 Again, what happened in the code block was that the command looked for and printed out the first 3 instances of the lines the contained the string "kills". As said before, this can be really helpful as it allows the user to look up speciifc information that can be defined to a specific word and gain more context on what that word was used for in a quick and easy matter.
 
+### -l
+
+For this command, it prints out the files (which are given by the user) which have the contained string given by the user.
+For the example below, the user is looking for the string 'kills' in the technical/911report directory in the files *chapter-2.txt*, *chapter-3.txt*, *chapter-13.2.txt*, *chapter-13.3.txt*:
+
+```
+kaytettey@Kelvins-MacBook-Air 911report % grep -l "kills" chapter-2.txt chapter-3.txt chapter-13.2.txt chapter-13.3.txt
+chapter-2.txt
+chapter-3.txt
+```
+What happened in the code block above was that it looked through the 4 files given for the string "kills", and since *chapter-2.txt* and *chapter-3.txt* contain the string, those were print out in the terminal. This is helpful because this allows users to quickly check for where something they are looking for could be be act quickly and in a efficent manner.
+
+For the other example, the user is looking for the string 'Americans' in the technical/911report directory in the same files, which are *chapter-2.txt*, *chapter-3.txt*, *chapter-13.2.txt*, *chapter-13.3.txt*:
+
+```
+kaytettey@Kelvins-MacBook-Air 911report % grep -l "Americans" chapter-2.txt chapter-3.txt chapter-13.2.txt chapter-13.3.txt
+chapter-2.txt
+chapter-3.txt
+chapter-13.3.txt
+```
+What happened in the code block was that it looked through the 4 files given for the string "Americans", and since *chapter-2.txt*, *chapter-3.txt*, and *chapter13.3.txt* contain the string, those were print out in the terminal. Like said before, this is helpful because this allows users to quickly check for where something they are looking for could be be act quickly and in a efficent manner.
+
+## Websites Used
+[gnu.org](https://www.gnu.org/software/grep/manual/grep.html#File-and-Directory-Selection)
