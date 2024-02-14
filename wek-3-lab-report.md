@@ -51,3 +51,29 @@ static void reverseInPlace(int[] arr) {
 ```
 This fix adresses the issue because the array is now easlily able to get the reversed items into the correct order by copying over from the temp array rather than do it in its own array, which it can't when it is changing the values inide itself already
 
+## Part 2: Researching Commands
+
+The command I chose to research is the *grep* command, which typically takes a string and a file and prints out to the user *all* the lines in that file that match the string. Grep also has some interesting command line arguments to use, such as:
+
+### -r
+
+This command line argument when added to grep looks for the pattern throughout all of the directories (gnu.org).
+An example of this can be seen when we try to see the number of lines that have the string "base pair in the technical/plos directory;
+
+```
+kaytettey@Kelvins-MacBook-Air docsearch % grep -r "base pair" technical/plos > plos.txt 
+kaytettey@Kelvins-MacBook-Air docsearch % wc  plos.txt
+       3      48     412 plos.txt
+```
+With the command, it searches all the files in technical/plos directory for the exact string "base pair". The output shows us that there is only 3 lines with the string "base pair" in the technical/plos directories. This is helpful because with this command, we can find matching files for info we need more quickly.
+
+Another example of this can be seen when the same is tried again, but this time to see in the technical/biomed directory:
+
+```
+kaytettey@Kelvins-MacBook-Air docsearch %  grep -r "base pair" technical/biomed > biomed-base-pair.txt
+kaytettey@Kelvins-MacBook-Air docsearch % wc biomed-base-pair.txt
+     226    2326   22534 biomed-base-pair.txt
+```
+With the command, it searches all the files in technical/biomed directory for the exact string "base pair". The output shows us that there is 226 lines with the string "base pair" in the technical/biomed directories. Again, this is helpful because with this command, we can find matching files for info we need more quickly.
+
+### -r
